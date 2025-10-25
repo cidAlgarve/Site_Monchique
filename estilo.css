@@ -76,3 +76,10 @@ header {
     font-size: 25px;
     text-align: justify;
 }
+footer{
+   font-style: italic;
+    text-align:center;
+   color:blue;
+
+} 
+}
