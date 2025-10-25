@@ -1,0 +1,68 @@
+body{
+    background-color: beige;
+}
+/* ------------------------------------------------------------------- */
+/* 1. ESTILOS DO menu-principal
+/* ------------------------------------------------------------------- */
+.menu-principal ul {
+    /* Remove os marcadores de lista (os pontos) */
+    list-style: none;
+    /* Remove margens e preenchimentos padrão do <ul> */
+    margin: 0;
+    padding: 0;
+    
+    /* Usa Flexbox para colocar os itens lado a lado */
+    display: flex;
+    /* Alinha os itens no centro verticalmente */
+    align-items: center; 
+    /* Distribui o espaço entre os itens (opcional) */
+    justify-content: space-around; 
+}
+
+/* ------------------------------------------------------------------- */
+/* 2. ESTILOS DO CONTAINER NAV/HEADER */
+/* ------------------------------------------------------------------- */
+
+header {
+    /* Cor de fundo para o cabeçalho/barra de navegação */
+    background-color: #333; 
+    /* Adiciona uma sombra suave (opcional) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    padding: 10px 0;
+}
+
+/* ------------------------------------------------------------------- */
+/* 3. ESTILOS DOS ITENS DA LISTA (LI) */
+/* ------------------------------------------------------------------- */
+
+.menu-principal li {
+    /* Espaçamento entre os itens */
+    margin: 0 15px; 
+}
+
+/* ------------------------------------------------------------------- */
+/* 4. ESTILOS DOS LINKS (A) - O texto clicável */
+/* ------------------------------------------------------------------- */
+
+.menu-principal a {
+    /* Remove o sublinhado padrão dos links */
+    text-decoration: none; 
+    /* Cor do texto do link (branco para contraste) */
+    color: #fff; 
+    /* Transforma o texto em maiúsculas */
+    text-transform: uppercase; 
+    /* Define o tamanho e peso da fonte */
+    font-size: 16px;
+    font-weight: bold;
+    /* Adiciona transição suave para o efeito hover */
+    transition: color 0.3s;
+}
+
+/* ------------------------------------------------------------------- */
+/* 5. ESTILOS DE INTERAÇÃO (HOVER) */
+/* ------------------------------------------------------------------- */
+
+.menu-principal a:hover {
+    /* Altera a cor do texto ao passar o mouse */
+    color: #ffd700; /* Dourado */
+}
