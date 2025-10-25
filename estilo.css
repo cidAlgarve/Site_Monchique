@@ -1,6 +1,9 @@
 body{
     background-color: beige;
 }
+h1{
+    font-size: 50px;
+}
 
 h1, h2{
     text-align: center;
@@ -79,6 +82,43 @@ header {
     background-color: rgb(34, 138, 138);
     font-size: 25px;
     text-align: justify;
+}
+
+
+.galeria-fotos {
+    /* Ativa o modo de grelha */
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; 
+    padding: 20px;
+    background-color: #f8f8f8; 
+}
+
+.galeria-fotos figure {
+       margin: 0; 
+    
+      border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+}
+
+.galeria-fotos img {
+        width: 100%; 
+        height: 200px;
+        object-fit: cover; 
+        transition: transform 0.3s ease-in-out;
+}
+
+.galeria-fotos figcaption {
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    background-color: #fff;
+}
+.galeria-fotos figure:hover img {
+   
+    transform: scale(1.10);
 }
 footer{
    font-style: italic;
