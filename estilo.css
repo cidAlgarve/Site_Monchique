@@ -120,6 +120,14 @@ header {
    
     transform: scale(1.10);
 }
+
+.informacao, .informacao1, .informacao2, .informacao3, .informacao4, .informacao5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    background-color: cadetblue;
+
+}
 footer{
    font-style: italic;
     text-align:center;
