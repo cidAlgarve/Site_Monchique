@@ -131,6 +131,9 @@ header {
 .lendas, .aguamonchique{
     background-color: rgb(134, 135, 202);
     color: #fff;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 
 }
 footer{
