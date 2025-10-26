@@ -1,4 +1,4 @@
-# Site\_Monchique
+# Site_Monchique
 
 O ponto mais alto do Algarve.
 
@@ -20,5 +20,5 @@ Tem um favicon.png desenhado no Paint.
 
 
 
-\[def]: aspeto\_site.png
+[def]:aspeto_site.png
 
