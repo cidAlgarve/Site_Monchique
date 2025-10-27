@@ -22,5 +22,5 @@ Tem um favicon.png desenhado no Paint.
 
 
 
-<img src="aspeto\_site.png">
+<img src="aspetosite.png">
 
